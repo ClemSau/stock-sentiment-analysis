@@ -2,6 +2,10 @@
 
 This project is an attempt at performing a simple periodic sentiment analysis of given stock symbol on reddit.
 
+## Requirements
+
+- FastAPI
+
 ## Project architecture
 
 A scheme of the whole project architecture can be found at on [figma](https://www.figma.com/file/hohoKkCm2DAsNAORkCqbGg/Untitled?node-id=0%3A1)
