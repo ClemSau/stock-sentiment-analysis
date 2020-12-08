@@ -2,6 +2,8 @@
 
 This project is an attempt at performing a simple periodic sentiment analysis of given stock symbol on reddit.
 
+<div style="text-align:center"><img src="docs/img/web_interface_mockup.png"/></div>
+
 ## Requirements
 
 - FastAPI
