@@ -37,3 +37,5 @@ In the building of the project, the following ressources are providing usefull i
 - [arc.codes](https://arc.codes/) to build serverless application
 - [Deploy a ML model with FastAPI](https://blockgeni.com/guide-to-fastapi-with-machine-learning-deployment/) guide
 - [Deploy FastAPI as a Vercel serverless application](https://github.com/paul121/fastapi-zeit-now)
+- [Sentiment analysis with python](https://medium.com/swlh/sentiment-analysis-using-python-and-nltk-library-d68caba27e1d)
+- [Use FastAPI with MongoDB](https://medium.com/python-in-plain-english/how-to-use-fastapi-with-mongodb-75b43c8e541d)
