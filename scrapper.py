@@ -13,7 +13,7 @@ reddit = praw.Reddit(client_id='AZdS_b1zE5tKow',
                      password= settings.reddit_password)
 
 try:
-    for submission in reddit.subreddit('investing').hot(limit=10):
-        print(submission.title)
+    temp = reddit.subreddit('investing').new(limit=100)
+    print(len(list(temp)))
 except:
     logging.error('Something went wrong during the authentication')
