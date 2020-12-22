@@ -13,10 +13,9 @@ This project is an attempt at performing a simple periodic sentiment analysis of
 A scheme of the whole project architecture can be found at on [figma](https://www.figma.com/file/hohoKkCm2DAsNAORkCqbGg/Untitled?node-id=0%3A1)
 
 In short, the main process are:
-- A script collect every 4 hours the newest posts
-- Filter the fetched posts to keep the ones that have been created in the last 4 hours
-- A FastAPI backend that use a sentiment analysis model to classify the fetched posts
-- The FastAPI backend analyse the results and create stats that are then stored in a NoSQL DB
+- Every 4 hours, a script scrape the latest posts and comments associated with a stock
+- The script send the data to a sentiment analysis API that analysis the text
+- The sentiment analysis API send the data to store it in a NoSQL database
 - A static web interface that fetch the data through the FastAPI DB 
 
 
