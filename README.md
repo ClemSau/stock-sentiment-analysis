@@ -33,7 +33,6 @@ Other useful options that can be used in the queries are:
 ## Additional ressources
 
 In the building of the project, the following ressources are providing usefull informations:
-- [arc.codes](https://arc.codes/) to build serverless application
 - [Deploy a ML model with FastAPI](https://blockgeni.com/guide-to-fastapi-with-machine-learning-deployment/) guide
 - [Deploy FastAPI as a Vercel serverless application](https://github.com/paul121/fastapi-zeit-now)
 - [Sentiment analysis with python](https://medium.com/swlh/sentiment-analysis-using-python-and-nltk-library-d68caba27e1d)
